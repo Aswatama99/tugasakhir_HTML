@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengisi Biodata Diri</title>
+</head>
+<body bgcolor="#FAF3F0">
+    <table align="center" border="0" style="width: 75%">
+        <tr style="background-color: white;">
+            <th><a href="index2.html"><img src="gambar/Logoelkomschool.png" height="50" , width="50"></a></th>
+            <th><a href="index2.html" style="color: black;">Home</a></th>
+            <th><a href="JadwalXIRPL2.html" style="color: black;">Jadwal</a></th>
+            <th><a href="biodatasaya.html" style="color: black;">Biodata</a></th>
+            <th><a href="formulir2.html" style="color: black;">Formulir</a></th> 
+        </tr>
+    </table>
+<br>
+    <center>
+        <form action="biodatasaya.html" method="post">
+            <table cellpadding="5">
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td><input type="text" name="nama" value="" placeholder="Nama Lengkap"></td>
+                </tr>
+                <tr>
+                    <td>Nama Panggilan</td>
+                    <td><input type="text" name="nama" value="" placeholder="Nama Panggilan"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type="date" name="tanggal lahir"></td>
+                </tr>
+                <tr>
+                    <td>Alamat </td>
+                    <td><textarea name="alamat" rows="3" cols="10" placeholder="Alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Sekolah</td>
+                    <td><input type="text" name="sekolah" placeholder="Sekolah"></td>
+                </tr>
+                <tr>
+                    <td>Kelas</td>
+                    <td><input type="Radio" id="kelas" name="kelas" value="angka1">
+                        <label for="kelas1">X</label><br>
+                        <input type="radio" id="kelas" name="kelas" value="angka2">
+                        <label for="kelas2">XI</label><br>
+                        <input type="radio" id="kelas" name="kelas" value="angka3">
+                        <label for="kelas3">XII</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kompetensi Keahlian</td>
+                    <td><select name="jurusan":>RPL
+                        <option value="Rekayasa Perangkat Lunak">RPL</option>
+                        <option value="Teknik Komputer Jaringan">TKJ</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Foto Diri</td>
+                    <td><input type="file" name="file" value=""></td>
+                </tr>
+            </table>
+            <br>
+        <br>
+                <input type="submit" name="Submit" value="submit">
+        </form>    
+    </center>
+</body>
+</html>
